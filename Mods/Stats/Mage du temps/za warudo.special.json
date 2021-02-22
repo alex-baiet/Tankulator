@@ -1,0 +1,28 @@
+{
+	"name":"Za warudo",
+	
+    "animPath":"sprites/speAnim",
+    "animHoverPath":"sprites/speHoverAnim",
+    
+	"length":0.0002,
+	"lengthReload":0.0005,
+	"loadNbr":10000,
+	"loadNbrCharged":10000,
+
+	"useContinuously":true,
+	"isInfinite":false,
+	"useSingleFrame":false,
+
+	"speed":1,
+	"useFixedSpeed":false,
+
+	"timePlayer":0.5,
+	"timeEnnemi":0.1,
+	"timeBulletPlayer":0.1,
+	"timeBulletEnnemi":0.1,
+
+	"useFixedBombScale":false,
+	"bombScale":1,
+	"lengthBomb":0
+
+}

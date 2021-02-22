@@ -1,0 +1,46 @@
+"name":string
+	#Nom du spécial qui est affiché et servant de référence.
+
+"animPath":string
+	#Dossier d'animation à jouer lors de l'utilisaion du spécial.
+"animHoverPath":string
+	#Dossier d'animation jouée sans toucher au sprite initiale du joueur.
+
+"length":float
+	#Durée du spécial en secondes.
+"lengthReload":float
+	#Temps de rechargement en secondes.
+"loadNbr":int
+	#Nombre de charge maximal.
+"loadNbrCharged":int
+	#Nombre de charge déjà prête dès le début du combat.
+
+"useContinuously":bool
+	#false : Utiliser le spécial nécessite de cliquer le bouton.
+	true : Maintenant rester appuyé est suffisant.
+"isInfinite":bool
+	#false : normal.
+	true : Le nombre de charges est infini.
+"useSingleFrame":bool
+	#La valeur "length" n'est plus utile, le special est utiliser pendant
+	uniquement un frame.
+
+"speed":float
+	#La vitesse est multiplié par la valeur donné lors de l'utilisation.
+"useFixedSpeed":
+	#true : Au lieu de multiplier la vitesse du joueur, la vitesse devient la
+	valeur "speed" donné en case/secondes.
+
+"timePlayer":float
+"timeEnnemi":float
+"timeBulletPlayer":float
+"timeBulletEnnemi":float
+	#Temps d'écoulement des éléments indiqués dans les noms.
+
+"lengthBomb":float
+	#Durée de l'effet d'invincibilité et des effets ci-dessous.
+"bombScale":float
+	#Multiplieur du rayon de la collision
+"useFixedBombScale":bool
+	#true : Le rayon de la collision devient la valeur donnée dans "bombScale"
+	en pixel.

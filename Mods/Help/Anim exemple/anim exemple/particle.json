@@ -1,0 +1,8 @@
+{
+	"radius":0.5,
+	"radiusThickness":1,
+	"randomDirectionAmount":1,
+	"rate":10,
+	"speed":0.1,
+	"lifetime":1
+}

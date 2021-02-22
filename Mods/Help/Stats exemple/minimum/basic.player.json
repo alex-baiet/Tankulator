@@ -1,0 +1,6 @@
+{
+	"name":"Minimus",
+	"spritePath":"sprites/basic_tank.png",
+	"weaponsName":["a basic weapon","big basic weapon"],
+	"specialName":"a basic special"
+}

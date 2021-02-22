@@ -1,0 +1,6 @@
+2=shadows/bottom.png
+6=shadows/right.png
+7=shadows/corner_sink.png
+3=shadows/corner_bottom_right.png
+1=shadows/corner_bottom_left.png
+9=shadows/corner_upper_right.png

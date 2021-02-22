@@ -1,0 +1,9 @@
+{
+	"name":"Ma grosse munition Billy",
+	"spritePath":"sprites/billy_ammo.png",
+	"speed":4,
+	"speedVar":2,
+	"lifeTime":60,
+	"colliderRadius":3,
+	"damage":20
+}

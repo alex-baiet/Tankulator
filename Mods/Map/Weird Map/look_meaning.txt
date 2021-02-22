@@ -1,0 +1,2 @@
+w=bricks.png
+g=planks.png

@@ -1,0 +1,23 @@
+{
+	"name":"Shotgun shoot",
+	"spritePath":"sprites/basic_ammo.png",
+
+	"speed":0,
+	"speedVar":0,
+	"speedMin":-1000000,
+	"speedMax":1000000,
+	"speedUp":0,
+	
+	"lifeTime":0,
+	"colliderRadius":0,
+	"damage":0,
+
+	"isRotating":false,
+
+	"destroyedAnimPath":"",
+	"explosionRadius":0,
+	"explosionDamage":0,
+
+	"weaponName":"",
+	"weaponDestroyName":"Shotgun"
+}

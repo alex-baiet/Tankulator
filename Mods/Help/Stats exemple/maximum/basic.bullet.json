@@ -1,0 +1,23 @@
+{
+	"name":"a basic bullet",
+	"spritePath":"sprites/basic_ammo.png",
+
+	"speed":4,
+	"speedVar":0,
+	"speedMin":-1000000,
+	"speedMax":1000000,
+	"speedUp":0,
+	
+	"lifeTime":60,
+	"colliderRadius":1,
+	"damage":10,
+
+	"isRotating":false,
+
+	"destroyedAnimPath":"",
+	"explosionRadius":0,
+	"explosionDamage":0,
+
+	"weaponName":"",
+	"weaponDestroyName":""
+}

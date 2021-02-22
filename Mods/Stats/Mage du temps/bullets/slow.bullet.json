@@ -1,0 +1,23 @@
+{
+	"name":"balle(-)",
+	"spritePath":"sprites/red_arrow.png",
+
+	"speed":6,
+	"speedVar":0,
+	"speedMin":1,
+	"speedMax":1000000,
+	"speedUp":-1.5,
+	
+	"lifeTime":60,
+	"colliderRadius":3,
+	"damage":10,
+
+	"isRotating":true,
+
+	"destroyedAnimPath":"",
+	"explosionRadius":0,
+	"explosionDamage":0,
+
+	"weaponName":"",
+	"weaponDestroyName":""
+}

@@ -1,0 +1,23 @@
+{
+	"name":"roquette",
+	"spritePath":"sprites/roquette",
+
+	"speed":2,
+	"speedVar":1,
+	"speedMin":-1000000,
+	"speedMax":10,
+	"speedUp":4,
+	
+	"lifeTime":60,
+	"colliderRadius":2,
+	"damage":5,
+
+	"isRotating":true,
+
+	"destroyedAnimPath":"sprites/explosion",
+	"explosionRadius":12,
+	"explosionDamage":15,
+
+	"weaponName":"",
+	"weaponDestroyName":""
+}

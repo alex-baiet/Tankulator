@@ -1,0 +1,7 @@
+{
+	"name":"Shotgun",
+	"ammo":["Shell"],
+	"rateOfFire":1,
+	"inaccuracy":90,
+	"bulletNbr":50
+}

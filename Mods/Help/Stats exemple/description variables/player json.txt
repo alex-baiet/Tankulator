@@ -1,0 +1,21 @@
+"name":string
+	#Nom du joueur affiché en jeu. Choisissez un nom original, sinon il risque 
+	d'avoir des conflits entre les personnages du même nom !
+"spritePath":string
+	#Chemin de l'image du joueur.
+"weaponsName":list[string]
+	#Nom des deux armes du joueur.
+"specialName":string
+	#Nom du spécial à utiliser.
+
+"life":float
+	#Vie du joueur.
+"speed":float
+	#Vitesse du joueur en case/seconde.
+"colliderObjectRadius":float
+	#Rayon de la boîte de collision pour les contacts autres que les balles.
+"colliderRadius":float
+	#Rayon de la boîte de collision pour les contacts seulement avec les balles.
+
+"shootDistance":float
+	#Avancement du "canon" de tir du joueur en pixel.

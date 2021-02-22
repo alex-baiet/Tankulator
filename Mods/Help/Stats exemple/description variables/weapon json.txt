@@ -1,0 +1,50 @@
+"name":string
+	#(valeur obligatoire)Nom de l'arme affiché en jeu et utilisé dans les autres json pour être 
+	utilisé.
+"ammo":list[string]
+	#(valeur obligatoire)Contient le nom de toutes les balles à tirer. Les 
+	balles sont tirées par défaut dans l'ordre indiqué. Si vous voulez mettre
+	plusieurs balles du même nom à la suite, il est possible de multiplier le
+	nom comme ceci : "une balle*5". Ici c'est comme si "une balle" avait été
+	écrit 5 fois à la suite.
+
+"randomAmmoOrder":bool
+	#false : Les balles sont tirées dans l'ordre.
+	true : Les balles tirées sont choisies au hasard dans "ammo".
+
+"shootAnimPath":string
+	#Charge l'animation dans le dossier du chemin indiqué pour jouer une 
+	animation de tir.
+"shootAnimRepeat":bool
+	#false : L'animation est lancée quand une balle est tirée.
+	true : L'animation est répété tant que le bouton de tir est appuyé et 
+	s'interrompt quand il est relaché.
+
+"rateOfFire":float
+	#Nombre de tir par seconde.
+"alwaysReloading":bool
+	#true : L'arme se recharge même si elle n'est pas l'arme principal.
+
+"inaccuracy":float
+	#espace maximum entre deux balles en degrées.
+"orderedInaccuracy":
+	#false : Les balles sont tirées dans une direction au hasard selon 
+	"inaccuracy"
+	#true : Les balles sont tirées avec un angle entre elles égales. Ne
+	fonctionne que si plusieurs balles sont tirées.
+"bulletNbr":int
+	#Nombre de balles par tir.
+
+"rotationStart":float
+	#Rotation de base de l'arme en degrée.
+"rotationEnd":float
+	#Rotation maximal ou minimal de l'arme en fonction de sa valeur par rapport
+	à "rotationStart".
+"rotationSpeed":float
+	#Tourne l'arme en degrées par second seulement en tir. Si la rotation de
+	l'arme n'est plus compris entre "rotationStart" et "rotationEnd", il revient
+	à "rotationStart".
+"rotationMirror":bool
+	#false : rien. ○-○
+	true : La rotation de l'arme fera des aller-retour entre "rotationStart"
+	et "rotationEnd".

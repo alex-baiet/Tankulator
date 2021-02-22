@@ -1,0 +1,46 @@
+Les fichiers ou dossiers inutile peuvent empêcher le chargement de l'image.
+Ne les laissez pas dans le dossier d'animation pour éviter les problèmes.
+
+Animation du sprite :
+
+Les images de l'animation doivent être nommées avec un nombre décimal indiquant 
+à quelle seconde elles doivent être jouées.
+ex : "0.4.png" est jouée après 0,4 secondes.
+
+La dernière image ne sert qu'à délimiter la longueur de l'animation.
+
+
+Images rémanentes (afterimage) :
+
+Une image rémanente est un effet laissant une copie de l'image de l'objet à 
+animer sur place, disparaissant ou bon d'un temps. 
+Nécessite le fichier "afterimage.json".
+
+"interval":float
+	#délai entre l'apparition de chaque image en secondes.
+"alphaStart":float
+	#Valeur de la transparence entre 0 et 1.
+"length":float
+	#Durée de vie d'un image, temps avant sa disparition.
+
+
+Particules :
+Effet créant de nombreuses particules autour de l'objet à animer.
+Nécessite le fichier "particle.json".
+
+"radius":float
+	#Taille du rayon du cercle où peuvent apparaître les particules
+"radiusThickness":float
+	#A 0, les particules se créeront au bord de la zone tandis que
+	à 1, ellesse créeront à l'intérieur.
+	La valeur peut être entre 0 et 1.
+"randomDirectionAmount":float
+	#A 0, les particules partiront vers l'extérieur du cercle, 
+	à 1, leurs directions devient totalement au pif.
+	La valeur peut être entre 0 et 1.
+"rate":float
+	#Cadence d'apparition des particules par secondes.
+"speed":float
+	#Vitesse des particules.
+"lifetime":1
+	#Durée de vie des particules.

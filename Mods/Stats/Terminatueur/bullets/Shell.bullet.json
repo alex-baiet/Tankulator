@@ -1,0 +1,12 @@
+{
+	"name":"Shell",
+	"spritePath":"sprites/basic_ammo.png",
+
+	"speed":3,
+	"speedVar":1,
+	"lifeTime":30,
+	"colliderRadius":2,
+	"damage":10,
+
+	"isRotating":false
+}

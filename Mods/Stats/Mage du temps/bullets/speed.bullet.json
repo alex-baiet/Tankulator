@@ -1,0 +1,23 @@
+{
+	"name":"balle(+)",
+	"spritePath":"sprites/green_arrow.png",
+
+	"speed":1.5,
+	"speedVar":1,
+	"speedMin":-1000000,
+	"speedMax":8,
+	"speedUp":1.5,
+	
+	"lifeTime":60,
+	"colliderRadius":3,
+	"damage":10,
+
+	"isRotating":true,
+
+	"destroyedAnimPath":"",
+	"explosionRadius":0,
+	"explosionDamage":0,
+
+	"weaponName":"",
+	"weaponDestroyName":""
+}

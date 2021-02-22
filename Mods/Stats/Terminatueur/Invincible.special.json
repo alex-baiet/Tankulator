@@ -1,0 +1,26 @@
+{
+	"name":"Invincibilité",
+	
+    "animPath":"sprites/speAnim",
+    
+    "length":1,
+    "lengthReload":2,
+    "loadNbr":5,
+    "loadNbrCharged":1,
+
+    "useContinuously":false,
+    "isInfinite":false,
+    "useSingleFrame":false,
+
+    "useFixedSpeed":false,
+    "speed":2,
+
+    "timePlayer":1,
+    "timeEnnemi":1,
+    "timeBulletPlayer":1,
+    "timeBulletEnnemi":1,
+
+    "useFixedBombScale":false,
+    "bombScale":1,
+    "lengthBomb":2
+}

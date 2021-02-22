@@ -1,0 +1,28 @@
+{
+	"name":"a basic special",
+	
+    "animPath":"sprites/speAnim",
+    "animHoverPath":"",
+
+	"length":1,
+	"lengthReload":1,
+	"loadNbr":1,
+	"loadNbrCharged":0,
+
+	"useContinuously":false,
+	"isInfinite":false,
+	"useSingleFrame":false,
+
+	"speed":1,
+	"useFixedSpeed":false,
+
+	"timePlayer":1,
+	"timeEnnemi":1,
+	"timeBulletPlayer":1,
+	"timeBulletEnnemi":1,
+
+	"lengthBomb":0,
+	"bombScale":1,
+	"useFixedBombScale":false,
+
+}

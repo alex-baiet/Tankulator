@@ -1,0 +1,7 @@
+{
+	"name":"Mon gros canon Billy",
+	"ammo":["Ma grosse munition Billy"],
+	"rateOfFire":2,
+	"inaccuracy":40,
+	"bulletNbr":20
+}

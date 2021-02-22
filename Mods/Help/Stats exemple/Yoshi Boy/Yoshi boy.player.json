@@ -1,0 +1,10 @@
+{
+	"name":"Yoshi boy",
+	"spritePath":"sprites/egg.png",
+	"life":200.0,
+	"speed":4.5,
+	"weaponsName":["Shotgun","Mon gros canon Billy"],
+	"specialName":"EggChamp",
+	"colliderRadius":3.5,
+	"shootDistance":6
+}

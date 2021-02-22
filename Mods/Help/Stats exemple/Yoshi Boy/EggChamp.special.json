@@ -1,0 +1,20 @@
+{
+	"name":"EggChamp",
+    
+    "length":1,
+    "lengthReload":1,
+    "loadNbr":4,
+    "useContinuously":false,
+
+    "useFixedSpeed":false,
+    "speed":2,
+
+    "timePlayer":2,
+    "timeEnnemi":0.5,
+    "timeBulletPlayer":2,
+    "timeBulletEnnemi":0.5,
+
+    "useFixedBombScale":true,
+    "bombScale" :48,
+    "lengthBomb":1
+}

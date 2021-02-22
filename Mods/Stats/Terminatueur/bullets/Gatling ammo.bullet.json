@@ -1,0 +1,13 @@
+{
+	"name":"Gatling ammo",
+	"spritePath":"sprites/basic_ammo.png",
+
+	"speed":3,
+	"speedVar":0.1,
+	"lifeTime":60,
+	"colliderRadius":2,
+	"damage":10,
+
+	"weaponName":"",
+	"weaponDestroyName":""
+}

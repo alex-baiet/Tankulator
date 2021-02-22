@@ -1,0 +1,12 @@
+{
+	"name":"Terminatueur",
+	"spritePath":"sprites/terminator_anim",
+	"weaponsName":["Gatling","Lance-roquette"],
+	"specialName":"Invincibilité",
+
+	"life":60,
+	"speed":2.0,
+	"colliderObjectRadius":5,
+	"colliderRadius":0,
+	"shootDistance":7
+}

@@ -1,0 +1,4 @@
+w=bricks.png
+d=bricks_down.png
+g=planks.png
+u=planks_up.png

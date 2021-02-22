@@ -1,0 +1,21 @@
+{
+	"name":"Tir descéleré",
+	"ammo":["balle(-)"],
+
+	"randomAmmoOrder":false,
+
+	"shootAnimPath":"",
+	"shootAnimRepeat":false,
+
+	"rateOfFire":1,
+	"alwaysReloading":true,
+	
+	"inaccuracy":90,
+	"orderedInaccuracy":true,
+	"bulletNbr":51,
+
+	"rotationStart":0,
+	"rotationEnd":0,
+	"rotationSpeed":0,
+	"rotationMirror":false
+}

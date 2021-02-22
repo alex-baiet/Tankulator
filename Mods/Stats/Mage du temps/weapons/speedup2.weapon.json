@@ -1,0 +1,19 @@
+{
+	"name":"Tir accéleré 2",
+	"ammo":["balle(+)"],
+
+	"randomAmmoOrder":false,
+
+	"shootAnimPath":"",
+	"shootAnimRepeat":false,
+
+	"rateOfFire":100,
+	"inaccuracy":360,
+	"orderedInaccuracy":false,
+	"bulletNbr":1,
+
+	"rotationStart":0,
+	"rotationEnd":0,
+	"rotationSpeed":0,
+	"rotationMirror":false
+}

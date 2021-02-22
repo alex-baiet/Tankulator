@@ -1,0 +1,13 @@
+{
+	"name":"Mage du Temps",
+	"spritePath":"sprites/clock_canon.png",
+	"weaponsName":["Tir accéleré","Tir descéleré"],
+	"specialName":"Za warudo",
+
+	"life":100,
+	"speed":3,
+	"colliderObjectRadius":5.5,
+	"colliderRadius":0,
+	"shootDistance":13
+
+}

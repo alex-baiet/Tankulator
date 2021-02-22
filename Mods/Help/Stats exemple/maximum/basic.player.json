@@ -1,0 +1,13 @@
+{
+	"name":"Maximus",
+	"spritePath":"sprites/basic_tank.png",
+	"weaponsName":["a basic weapon"],
+	"specialName":"a basic special",
+
+	"life":100,
+	"speed":3,
+	"colliderObjectRadius":2.5,
+	"colliderRadius":0,
+	"shootDistance":6
+
+}

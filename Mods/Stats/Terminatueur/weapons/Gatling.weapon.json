@@ -1,0 +1,14 @@
+{
+	"name":"Gatling",
+	"ammo":["Gatling ammo*14","Shotgun shoot"],
+
+	"randomAmmoOrder":false,
+
+	"shootAnimPath":"sprites/shoot",
+	"shootAnimRepeat":true,
+
+	"rateOfFire":22,
+	"inaccuracy":20,
+	"bulletNbr":1
+
+}

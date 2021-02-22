@@ -1,0 +1,39 @@
+"name":string
+	#Nom de la balle, aussi utilisé pour les références.
+"spritePath":string
+	#Chemin relatif du sprite de la balle.
+
+"speed":float
+	#Vitesse de la balle en unité(=une case)/seconde.
+"speedVar":float
+	#Valeur pouvant être ajoutée ou retirée au hasard à la vitesse de la balle
+	lors de sa création.
+"speedMin":float
+"speedMax":float
+	#Valeurs extrêmes autorisées pour la balle.
+"speedUp":float
+	#accélération de la balle, ajoute sa valeur par seconde à la vitesse.
+
+"lifeTime":float
+	#Temps de vie de la balle en seonde.
+"colliderRadius":float
+	#Rayon du collider en pixel.
+"damage":float
+	#Dégâts.
+
+"isRotating":bool
+	#false : la balle change sa rotation en fonction de sa direction
+	true : La balle garde toujours une rotation nul.
+
+"destroyedAnimPath":string
+	#Indique le dossier d'animation à jouer lors de la destruction de la balle.
+"explosionRadius":float
+	#Rayon de l'explosion en pixel.
+"explosionDamage":float
+	#Dégâts de l'explosion. Les dégâts peuvent s'ajouter à "damage" en cas de
+	contact direct avec la balle.
+
+"weaponName":string
+	#Charge l'arme du nom indiqué et tirera avec durant son parcours.
+"weaponDestroyName":string
+	#Tir avec l'arme indiqué seulement lors de sa destruction.

@@ -1,0 +1,28 @@
+ajout description blabla pour les persos
+menage script
+Creer help mod et copie json player etc complet
+Refaire log / erreur runtime
+animation intro outro
+Separer mur et sol (pour meilleur rendu image)
+anim perso menu choix
+parametre changement de controle
+creer icone de jeu
+log corriger faute "n'exste pas" (Ctrl+F c tout mais flemme là)
+qualité graphiques pixel perfect (ex:écran réduit en 1280x720 pour le 1600x900)
+
+Particule :
+direction aleatoire SANS la vitesse aleatoire
+vitesse aleatoire
+alpha en fonction alpha objet (pour les balles)
+alpha diminuant
+vitesse variant
+
+Pour la Bêta :
+musique
+ajout de perso
+equilibrage
+
+Balle :
+deplacement de balles en groupes creant forme geometrique
+balle changeant de direction
+

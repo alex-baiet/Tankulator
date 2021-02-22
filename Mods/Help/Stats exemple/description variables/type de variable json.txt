@@ -1,0 +1,10 @@
+string
+	#Contient un texte entre "". ex: "mon texte"
+bool
+	#Type de variable n'acceptant que true ou false.
+int
+	#Contient un nombre entier. ex: 42
+float
+	#Contient un nombre décimal. ex: 3.14
+list
+	#Contient plusieurs variables du type indiqué entre []. ex: [2,5,7]
